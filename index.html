@@ -1,38 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <title>My Exercise</title>
+    <title>My FluffyMochi</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-    <div class="header">
-        <h1>FluffyMochi</h1>
-        <ul>
-            <li><b>Home</b></li>
-            <li><b>About</b></li>
-            <li><b>Contact</b></li>
-        </ul>
-    </div>
 </head>
+
 <body>
-    <div class="content">
-        <img src="fluffymochi.jpg" alt="" width="300px" height="200px">
-        <h3>Deskripsi Produk</h3>
-        <p>FluffyMochi adalah mochi yang dibuat dengan bahan berkualitas tinggi yang menghadirkan tekstur lembut dan empuk dengan berbagai varian rasa seperti strawberry, coklat, mangga, dan matcha.</p>
+    <header>
+        <nav>
+        <h1>FluffyMochi</h1>
+            <ul>
+                <li><b>Home</b></li>
+                <li><b>About</b></li>
+                <li><b>Contact</b></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="Deskripsi">
+            <img src="fluffymochi.jpg" alt="" width="300px" height="200px">
+            <h3>Deskripsi Produk</h3>
+            <p>FluffyMochi adalah mochi yang dibuat dengan bahan berkualitas tinggi yang menghadirkan tekstur lembut dan empuk dengan berbagai varian rasa seperti strawberry, coklat, mangga, dan matcha.</p>
+        </section>
+    
+        <section class="Layanan">
+            <h3>Layanan Kami</h3>
+            <p>Kami menjual mochi beraneka rasa dengan kualitas tinggi. Berikut beberapa menu yang kami jual.</p>
+        </section>
+        <section class="tabel menu">
+            <h5>Menu FluffyMochi :</h5>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Varian</th>
+                        <th>Deskripsi</th>
+                        <th>Harga</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Mochi coklat</td>
+                        <td>mochi kenyal dengan isian coklat manis yang lumer di mulut</td>
+                        <td>Rp. 5.000</td>
+                    </tr>
+                    <tr>
+                        <td>Mochi mangga</td>
+                        <td>Mochi kenyal dengan isian mangga segar yang manis</td>
+                        <td>Rp. 7.000</td>
+                    </tr>
+                    <tr>
+                        <td>Mochi matcha</td>
+                        <td>Mochi kenyal dengan isian matcha harum yang nikmat</td>
+                        <td>Rp. 5.000</td>
+                    </tr>
+                    <tr>
+                        <td>Mochi strawberry</td>
+                        <td>Mochi lembut berisi strawberry manis yang segar dan lezat</td>
+                        <td>Rp. 7.000</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
 
-        <h3>Layanan Kami</h3>
-        <p>Kami menjual mochi beraneka rasa dengan kualitas tinggi. Berikut beberapa menu yang kami jual :</p>
-        <ol type="1">
-            <li>Mochi strawberry</li>
-            <li>Mochi coklat</li>
-            <li>Mochi matcha</li>
-            <li>Mochi mangga</li>
-        </ol>
-        <p><i><u>Tersedia secara offline dan online!</u></i></p>
-    </div>
+        <section class="contact-form">
+            <h3>Contact Us</h3>
+            <form action="">
+                    <label for="">Nama</label>
+                    <input type="text" placeholder="Masukan Nama" required /><br />
+                    <br>
+                    <label for="">Email</label>
+                    <input type="text" placeholder="Masukan Email" required /><br />
+                    <br>
+                    <label for="">Pesan</label>
+                    <textarea name="" id="" cols="30" rows="5" placeholder="Masukan Pesan" required></textarea><br /><br />
+                    <button type="submit">Kirim</button>
+            </form>
+        </section>
 
-    <div class="footer">
-        <h3>Hubungi Kami</h3>
-        <p><a href="https://www.instagram.com/alifiashasaa/" target="blank"><i class="fa-brands fa-instagram"></i>Instagram</a></p>
-        <p><a href=""><i class="fa-regular fa-envelope"></i>alifiashasa30@gmail.com</a></p>
-    </div>
+        <footer>
+            <h3>Hubungi Kami</h3>
+            <span>FluffyMochi | </span>
+            <span><a href="https://www.instagram.com/alifiashasaa/" target="blank"><i class="fa-brands fa-instagram"></i> alifiashasaa </span>
+        </footer>
+    </main>
 </body>
 </html>
