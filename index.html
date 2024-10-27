@@ -9,6 +9,11 @@
 <body>
     <header>
         <style>
+            @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+            
+            *{
+                font-family: "Noto Sans", sans-serif;
+            }
             header{
                 background-color: rgb(240, 55, 147);
                 padding: 20px;
@@ -34,6 +39,9 @@
                 padding-inline-end: 6%;
                 gap: 15px;
             }
+            nav li:hover{
+                text-decoration: underline;
+            }
             .Deskripsi{
                 display: flex;
                 justify-content:space-evenly;
@@ -41,11 +49,15 @@
                 margin-top:10%
             }
             .info{
-                max-width: 400px;
+                max-width: 600px;
             }
             .box{
                 border: 1px solid black;
                 padding: 9px 9px;
+            }
+            .box:hover{
+                background-color: rgb(240, 55, 147);
+                color: white;
             }
             .gambar img{
                 max-width: 100%;
@@ -84,44 +96,71 @@
                 display: flex;
                 justify-content:space-evenly;
                 margin: 50px 0;
+
             }
             .produk-card-1{
                 box-shadow: 0px 0px 0px 8px rgba(0,0,0,0.1);
                 margin: 50px;
                 width: 250px;
-                height: 320px;
+                height: 350px;
                 margin: 10px;
                 padding: 5px;
                 border-radius: 10%;
                 text-align: center;
+            }
+            .produk-card-1:hover{
+                background-color: rgb(240, 55, 147);
+                color: white;
             }
             .produk-card-2{
                 box-shadow: 0px 0px 0px 8px rgba(0,0,0,0.1);
                 margin: 50px;
                 width: 250px;
-                height: 320px;
+                height: 350px;
                 margin: 10px;
                 padding: 5px;
                 border-radius: 10%;
                 text-align: center;
+            }
+            .produk-card-2:hover{
+                background-color: rgb(240, 55, 147);
+                color: white;
             }
             .produk-card-3{
                 box-shadow: 0px 0px 0px 8px rgba(0,0,0,0.1);
                 margin: 50px;
                 width: 250px;
-                height: 320px;
+                height: 350px;
                 margin: 10px;
                 padding: 5px;
                 border-radius: 10%;
                 text-align: center;
             }
+            .produk-card-3:hover{
+                background-color: rgb(240, 55, 147);
+                color: white;
+            }
             .contact-form{
-                margin-left: 5%;
+                text-align: center;
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+            .contact-form button:hover{
+                background-color: rgb(240, 55, 147);
+            }
+            .contact-form form {
+                display: inline-block;
+                text-align: left;
             }
             .footer{
+                background-color: rgb(240, 55, 147);
                 margin-left: 5%;
                 margin-top: 4%;
-                margin-bottom: 4%;
+                text-align: center;
+                padding-top: 1%;
+                padding-bottom: 1%;
+                color: white;
+                margin-left: 0;
             }
         </style>
         <nav>
@@ -136,7 +175,7 @@
     <main>
         <section class="Deskripsi">
             <div class="info">
-                <h3>Selamat Datang di FluffyMochi!</h3>
+                <h2>Selamat Datang di FluffyMochi!</h2>
                 <p>FluffyMochi adalah mochi yang dibuat dengan bahan berkualitas tinggi yang menghadirkan tekstur lembut dan empuk dengan berbagai varian rasa seperti strawberry, coklat, mangga, dan matcha.</p>
                 <span class="box">Selengkapnya...</span>
             </div>
@@ -147,8 +186,8 @@
     
         <section class="layanan-wrapper">
             <section class="Layanan">
-                <h3>Layanan Kami</h3>
-                <p>Kami menjual mochi beraneka rasa dengan kualitas tinggi. Berikut beberapa menu yang kami jual.</p>
+                <h2>Layanan Kami</h2>
+                <p>Kami menjual mochi beraneka rasa dengan bahan berkualitas tinggi dan bertekstur lembut. Berikut adalah beberapa menu yang kami jual.</p>
             </section>
             <section class="tabel menu">
                 <table border="1">
@@ -204,24 +243,24 @@
         </section>
 
         <section class="contact-form">
-            <h3>Contact Us</h3>
             <form action="">
-                    <label for="">Nama</label>
+                    <h2>Hubungi Kami</h2>
+                    <label for="">Nama</label><br>
                     <input type="text" placeholder="Masukan Nama" required /><br />
                     <br>
-                    <label for="">Email</label>
+                    <label for="">Email</label><br>
                     <input type="text" placeholder="Masukan Email" required /><br />
                     <br>
-                    <label for="">Pesan</label>
+                    <label for="">Pesan</label><br>
                     <textarea name="" id="" cols="30" rows="5" placeholder="Masukan Pesan" required></textarea><br /><br />
                     <button type="submit">Kirim</button>
             </form>
         </section>
 
         <footer class="footer">
-            <h3>Hubungi Kami</h3>
+            <p>Jl. Soedirman No.56 Kota Tegal</p>
             <span>FluffyMochi | </span>
-            <span><a href="https://www.instagram.com/alifiashasaa/" target="blank"><i class="fa-brands fa-instagram"></i> alifiashasaa </span><br>
+            <span><a href="https://www.instagram.com/alifiashasaa/" target="blank"><i class="fa-brands fa-instagram"></i> alifiashasaa </span>
         </footer>
     </main>
 </body>
