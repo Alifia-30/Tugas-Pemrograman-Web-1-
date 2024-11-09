@@ -36,7 +36,10 @@ nav ul {
 nav li:hover {
     text-decoration: underline;
 }
-
+a{
+    color: white;
+    text-decoration: none;
+}
 .Deskripsi {
     display: flex;
     justify-content: space-evenly;
