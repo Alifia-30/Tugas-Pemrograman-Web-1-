@@ -3,7 +3,6 @@
 
 <head>
     <title>My FluffyMochi</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -12,23 +11,23 @@
     <header>
         <nav>
             <h1>FluffyMochi</h1>
-        <button id="menu-toggle" onclick="toggleMenu()">☰</button>
+            <button id="menu-toggle" onclick="toggleMenu()">☰</button>
             <ul id="menu">
-                <li><a href="#Home"><b>Home</b></a></li>
-                <li><a href="#About"><b>About</b></a></li>
-                <li><a href="#Contact"><b>Contact</b></a></li>
+                <li><a href="#Home" onclick="toggleMenu()"><b>Home</b></a></li>
+                <li><a href="#About" onclick="toggleMenu()"><b>About</b></a></li>
+                <li><a href="#Contact" onclick="toggleMenu()"><b>Contact</b></a></li>
             </ul>
         </nav>
     </header>
     <main>
         <section id="Home" class="Deskripsi">
-            <div class="info">
-                <h2>Selamat Datang di FluffyMochi!</h2>
-                <p>FluffyMochi adalah mochi yang dibuat dengan bahan berkualitas tinggi yang menghadirkan tekstur lembut dan empuk dengan berbagai varian rasa seperti strawberry, coklat, mangga, dan matcha.</p>
-                <span class="box">Selengkapnya...</span>
-            </div>
             <div class="gambar">
-                <img src="mochi hemat.jpg" alt="mochiiwww" width="230px" height="200px">
+                <img src="gambarmochiii.png" alt="mochiiwww" width="430px" height="400px">
+            </div>
+            <div class="info">
+                <h1>Treat Yourself with FluffyMochi!</h1>
+                <p>Terbuat dari bahan berkualitas tinggi yang menghadirkan tekstur lembut dan empuk dengan berbagai varian rasa seperti strawberry, coklat, mangga, dan matcha.</p>
+                <span class="box">Selengkapnya...</span>
             </div>
         </section>
     
@@ -107,9 +106,10 @@
     </main>
 
     <footer class="footer">
+        <p>Dapatkan mochi kami hanya di toko offline</p>
         <p>Jl. Soedirman No.56 Kota Tegal</p>
         <span>FluffyMochi | </span>
-        <span><a href="https://www.instagram.com/alifiashasaa/" target="blank"><i class="fa-brands fa-instagram"></i> alifiashasaa </span>
+        <span>Since 2024</span>
     </footer>
 
     <script src="script.js"></script>
