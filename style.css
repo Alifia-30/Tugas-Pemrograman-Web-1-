@@ -198,6 +198,9 @@ body, html {
         gap: 20px;
         padding: 10px;
     }
+    .special-menu {
+        margin-top: 13%;
+    }
 
     #menu-toggle {
         display: block;
