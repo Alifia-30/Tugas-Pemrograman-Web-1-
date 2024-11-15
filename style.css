@@ -178,15 +178,11 @@ body, html {
 
 @media (max-width: 768px) {
     .Deskripsi {
-        /* display: block; */
         padding: 8%;
         padding-top: 25%;
-        padding-bottom: 60%;
+        padding-bottom: 10%;
     }
     .info {
-        position: absolute;
-        top: 65%;
-        padding: 20px;
         text-align: center;
         font-size: 15px;
     }
